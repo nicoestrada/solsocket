@@ -1,0 +1,23 @@
+{
+  "name": "solana-subscriptions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@project-serum/anchor": "^0.26.0",
+    "@solana-developers/helpers": "^2.1.0",
+    "@solana/spl-token": "^0.4.1",
+    "@solana/spl-token-metadata": "^0.1.2",
+    "@solana/web3.js": "^1.91.0",
+    "axios": "^1.6.7",
+    "bs58": "^5.0.0",
+    "cross-fetch": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "helius-sdk": "^1.2.5",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10"
+  }
+}
