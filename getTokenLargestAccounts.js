@@ -1,7 +1,8 @@
 const axios = require('axios');
 const { fetchQuote } = require('./fetchQuote');
-const TELEGRAM_BOT_TOKEN = "7008955953:AAH27zLw5iS2izy2jK4kbhziWrS4FeMyv4k";
-const TELEGRAM_CHAT_ID = "-1001905463080";
+require(process.env);
+const TELEGRAM_BOT_TOKEN = "enter bot token";
+const TELEGRAM_CHAT_ID = "enter chat id";
 
 async function getTokenLargestAccounts(tokenAddress, displayData) {
   const url = 'https://long-dawn-sunset.solana-mainnet.quiknode.pro/3ecae5f94abc22ba36a0e77c674729a1df82e817/';
