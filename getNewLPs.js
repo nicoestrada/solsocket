@@ -2,11 +2,12 @@ const { Connection, PublicKey } = require("@solana/web3.js");
 const { WebSocket, MessageEvent, ErrorEvent } = require("ws");
 const { getAsset } = require('./getAsset');
 const { json } = require("stream/consumers");
+require('dotenv').config();
 
 const RAYDIUM_PUBLIC_KEY = "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8";
 const SESSION_HASH = 'boom' + Math.ceil(Math.random() * 1e9); // Random unique identifier for your session
-const HTTP_URL = "https://long-dawn-sunset.solana-mainnet.quiknode.pro/3ecae5f94abc22ba36a0e77c674729a1df82e817/";
-const WSS_URL = "wss://long-dawn-sunset.solana-mainnet.quiknode.pro/3ecae5f94abc22ba36a0e77c674729a1df82e817/";
+const HTTP_URL = "enter rpc url";
+const WSS_URL = "enter rpc wss url";
 
 let credits = 0;
 

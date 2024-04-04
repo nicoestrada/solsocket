@@ -3,10 +3,10 @@ import { TOKEN_2022_PROGRAM_ID, TOKEN_PROGRAM_ID, getTokenMetadata } from "@sola
 import { LAMPORTS_PER_SOL, Connection, PublicKey } from "@solana/web3.js";
 import { WebSocket, MessageEvent, ErrorEvent } from "ws";
 
-const account = "75tTsbp4qkN4XLnWBj7xWzEbfgeZzJTTZH8h94ttKxcg"
+const account = "enter acc"
 const mintedTokens = new Array();
 
-const connection = new Connection("https://smart-responsive-firefly.solana-mainnet.quiknode.pro/f9f91d670807a35b45b01058948e2cd890c264dd/")
+const connection = new Connection("enter url")
 
 //track notification changes of a specific public key account
 function subscribeToAccount(ws: WebSocket, account: string) {
@@ -42,7 +42,7 @@ function subscribeToProgram(ws: WebSocket, programId: string) {
 
 }
 
-const ws = new WebSocket("wss://smart-responsive-firefly.solana-mainnet.quiknode.pro/f9f91d670807a35b45b01058948e2cd890c264dd/");
+const ws = new WebSocket("enter wss url");
 
 
 ws.addEventListener("open", () => {

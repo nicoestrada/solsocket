@@ -1,8 +1,9 @@
 const axios = require('axios');
 const { getTokenLargestAccounts } = require("./getTokenLargestAccounts");
+require('dotenv').config();
 
 async function getAsset(tokenAddress, secondTokenAddress, lpLockedPct, lpLockedUSD, tokenImage, risks) {
-  const url = 'https://long-dawn-sunset.solana-mainnet.quiknode.pro/3ecae5f94abc22ba36a0e77c674729a1df82e817/';
+  const url = 'enter rpc url';
   const data = {
     jsonrpc: '2.0',
     id: 1,

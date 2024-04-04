@@ -2,9 +2,9 @@ import  { Connection, PublicKey } from "@solana/web3.js";
 import { TOKEN_2022_PROGRAM_ID, TOKEN_PROGRAM_ID } from "@solana/spl-token";
 import axios from "axios";
 
-const url = "https://smart-responsive-firefly.solana-devnet.quiknode.pro/f9f91d670807a35b45b01058948e2cd890c264dd/"
+const url = "enter url"
 // Create a connection to the Solana JSON RPC endpoint
-const connection = new Connection('https://smart-responsive-firefly.solana-devnet.quiknode.pro/f9f91d670807a35b45b01058948e2cd890c264dd/');
+const connection = new Connection('enter url');
 
 // Public key of the address for which you want to retrieve signatures
 const address = new PublicKey('75tTsbp4qkN4XLnWBj7xWzEbfgeZzJTTZH8h94ttKxcg');

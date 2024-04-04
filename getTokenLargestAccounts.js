@@ -1,11 +1,10 @@
 const axios = require('axios');
-const { fetchQuote } = require('./fetchQuote');
-require(process.env);
 const TELEGRAM_BOT_TOKEN = "enter bot token";
 const TELEGRAM_CHAT_ID = "enter chat id";
+require('dotenv').config();
 
 async function getTokenLargestAccounts(tokenAddress, displayData) {
-  const url = 'https://long-dawn-sunset.solana-mainnet.quiknode.pro/3ecae5f94abc22ba36a0e77c674729a1df82e817/';
+  const url = 'enter rpc url';
   const data = {
     jsonrpc: '2.0',
     id: 1,
